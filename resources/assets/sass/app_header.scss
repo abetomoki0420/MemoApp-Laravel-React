@@ -1,0 +1,8 @@
+$headerHight: 100px ;
+
+.app-header{
+  height: $headerHight ;
+  background: tomato;
+  display: flex;
+  justify-content: space-between;
+}

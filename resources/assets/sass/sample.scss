@@ -1,0 +1,25 @@
+// //変数
+// $baseFontSize: 40px ;
+//
+// $brandColor: tomato ;
+//
+// $debugMode: false ;
+//
+// @for $i from 10 through 14 {
+//   .fs#{$i} { font-size: #{$i}px; }
+// }
+//
+// .sample{
+//   p{
+//
+//     background: $brandColor ;
+//   }
+//   .sub{
+//     @if $debugMode == true{
+//       font-size: $baseFontSize*2 ;
+//     }@else{
+//       font-size: $baseFontSize;
+//     }
+//     background: $brandColor;
+//   }
+// }
